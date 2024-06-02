@@ -41,7 +41,7 @@ there are some important parameters that can be adjusted at runtime.
 
 | Method | Description | Default |
 | --- | --- | --- |
-| motionDetector.setCheckInterval(500); | milliseconds between pictures to compare. less = less energy cos t | 500 |
+| motionDetector.setCheckInterval(500); | milliseconds between pictures to compare. less = less energy cost | 500 |
 | motionDetector.setLeniency(20); | maximal tolerence of difference in pictures. less = more sensible | 20 |
 | motionDetector.setMinLuma(1000); | minimum brightness. if lower the callback onTooDark is called | 1000 |
 
